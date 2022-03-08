@@ -1,6 +1,8 @@
 body {
     background-color: #1f2937;
-    margin: 0 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
 .firstsection {
@@ -10,12 +12,14 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    
+    margin-bottom: 100px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 ul {
@@ -30,8 +34,33 @@ a {
     text-decoration: none;
 }
 
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.topleft {
+    flex: 1;
+}
+
+.topimage {
+    flex: 1;
+}
+
 .hero {
     font-size: 48px;
     font-weight: 900;
+}
 
+button {
+    padding: 6px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+}
+
+.topbutton {
+    background-color: #3882f6;
+    color: #F9FAF8;
 }
