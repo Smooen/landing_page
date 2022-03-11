@@ -146,3 +146,22 @@ h2 {
     width: 800px;
     justify-content: space-evenly;
 }
+
+.bottombutton {
+    background-color: #3882f6;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footertext {
+    margin-top: 10px;
+}
